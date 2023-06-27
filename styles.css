@@ -1,1 +1,52 @@
 /* your code here */
+/* your code here */
+
+.media-icons{
+	 display: flex;
+    flex-direction: row;
+    justify-content: right;
+     gap: 20px;
+}
+img{
+    border-radius: 25px;
+}
+body{
+    background-color: black;
+    color: white;
+}
+.logo-details{
+    font-size: 30px;
+    margin-top: 20px;
+}
+.link,.service,.other_Service,.contact{
+    display: grid;
+    width: 100%;
+  
+    padding:30px;
+    
+}
+.link>a,.service>a,.other_Service>a,.contact>a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    margin-top: 10px;
+    font-style: unset;
+}
+.name{
+    text-decoration: underline;
+    font-size: 20px;
+    font-weight: bold;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.bottom-details{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(116, 109, 109);
+    padding: 15px;
+}
+
+
