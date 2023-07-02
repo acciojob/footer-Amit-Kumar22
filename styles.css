@@ -19,14 +19,14 @@ body{
     font-size: 30px;
     margin-top: 20px;
 }
-.Links,.Services,.other_Service,.Contact{
+.Links,.Services,.Contact{
     display: grid;
     width: 100%;
   
     padding:30px;
     
 }
-.Links>a, .Services>a,.other_Service>a,.Contact>a{
+.Links>a, .Services>a,.Contact>a{
     text-decoration: none;
     color: white;
     font-size: 15px;
